@@ -1,0 +1,15 @@
+/*Color Classes*/
+.black { background-color: black;}
+.green { background-color: green;}
+.pink { background-color: pink;}
+.yellow { background-color: yellow;}
+.blue { background-color: blue;}
+.grey { background-color: grey;}
+.brown { background-color: rgb(226,135,67);}
+.panna { background-color: #fee8b3;}
+
+/*End Color Classes*/
+
+[class*="col"] {
+    height: 70px;
+}
