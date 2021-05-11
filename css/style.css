@@ -13,7 +13,15 @@
 .col.block {
     display: block;
     text-align: center;
+    padding: 5px;
+}
+
+[class*="col"] > .row {
+    height: 100%;
 }
 
 [class*="col"] > .row > [class*="col"] {
+    background-color: rgb(221, 99, 120);
+    height: 100%;
+    border: 1px solid white;
 }
