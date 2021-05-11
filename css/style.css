@@ -12,6 +12,7 @@
 
 .col.block {
     display: block;
+    text-align: center;
 }
 
 [class*="col"] > .row > [class*="col"] {
